@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <container>
+      <my-button ng-click="parent.click('1')" title="1"></my-button>
+      <my-button ng-click="parent.click('2')" title="2"></my-button>
+      <my-button ng-click="parent.click('3')" title="3"></my-button>
+      <my-button ng-click="parent.click('4')" title="4"></my-button>
+    </container>
+  </body>
+</html>
